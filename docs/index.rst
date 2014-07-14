@@ -16,12 +16,13 @@ Download elastic search from https://download.elasticsearch.org/elasticsearch/el
 Unzip it unzip elasticsearch-1.2.2.zip
 
 Start it: 
- cd elasticsearch-1.2.2
- bin/elasticsearch
+ cd elasticsearch-1.2.2 && bin/elasticsearch
 
-Check its running, go to http://localhost:9200/
+Check its running, by going to http://localhost:9200/
 
 Download and run the sample page indexer, from https://github.com/johnjoeallen/ElasticSeachTutorials/blob/master/src/
+
+You will need the .groovy file and a feed.txt to specify the URLs to index. You will need Groovy installed on your machine, if you don't have it, you can get it via `gvm http://gvmtool.net/`_ on Linux or `gravy https://github.com/enterprise-grails/gravy`_ on Windows. 
 
 Indices and tables
 ==================
