@@ -21,6 +21,8 @@ Start it:
 
 Check its running, go to http://localhost:9200/
 
+Download and run the sample page indexer, from https://github.com/johnjoeallen/ElasticSeachTutorials/blob/master/src/
+
 Indices and tables
 ==================
 
