@@ -25,6 +25,12 @@ Download and run the `Sample page indexer <https://github.com/johnjoeallen/Elast
 You will need the .groovy file and a feed.txt to specify the URLs to index. You will need Groovy installed on your machine, 
 if you don't have it, you can get it via `gvm <http://gvmtool.net/>`_ on Linux or `gravy <https://github.com/enterprise-grails/gravy>`_ on Windows. 
 
+Now you can run some queries:
+
+http://localhost:9200/pgindex/page/_search?q=text:software
+
+http://localhost:9200/pgindex/page/_search?q=text:analytical
+
 Indices and tables
 ==================
 
