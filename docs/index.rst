@@ -11,12 +11,12 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-Download `Elastic Search <https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.2.2.zip>`_ 
+Download `Elastic Search <https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/zip/elasticsearch/2.2.0/elasticsearch-2.2.0.zip>`_ 
 
-Unzip it: unzip elasticsearch-1.2.2.zip
+Unzip it: unzip elasticsearch-2.2.0.zip
 
 Start it: 
- cd elasticsearch-1.2.2 && bin/elasticsearch
+ cd elasticsearch-2.2.0 && bin/elasticsearch
 
 Check its running, by going to http://localhost:9200/
 
